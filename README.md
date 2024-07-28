@@ -88,3 +88,4 @@ Contributions are welcome! Please submit a pull request or open an issue to disc
 
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [Microsoft Azure Active Directory](https://azure.microsoft.com/en-us/services/active-directory/)
+- [Microsoft Graph API](https://learn.microsoft.com/en-us/graph/use-the-api)
