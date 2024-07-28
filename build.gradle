@@ -32,9 +32,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'io.micrometer:micrometer-tracing-bridge-brave'
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0'
-	implementation 'com.microsoft.graph:microsoft-graph:5.24.0' //TODO 6.13.0
+	implementation 'com.microsoft.graph:microsoft-graph:5.24.0' //TODO upgrade to 6.13.0
 //	implementation 'com.azure.spring:spring-cloud-azure-autoconfigure:5.13.0'
-	implementation 'com.azure:azure-identity:1.4.6' //TODO 1.12.2
+	implementation 'com.azure:azure-identity:1.4.6' //TODO upgrade to 1.12.2
 	implementation 'jakarta.validation:jakarta.validation-api:3.1.0'
 	implementation 'org.hibernate.validator:hibernate-validator:7.0.1.Final'
 	implementation 'org.springframework.cloud:spring-cloud-starter-circuitbreaker-resilience4j'

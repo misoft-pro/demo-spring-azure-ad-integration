@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: demo-spring-azure-ad
+  mvc:
+    servlet:
+      path: /api
+
+management:
+  endpoint:
+    logfile:
+      external_file: ./logs/application.log
+    health:
+      show-details: ALWAYS
+  endpoints:
+    web:
+      base-path: /internal/actuator
+      exposure:
+        include: "*"
+  health:
+    mail:
+      enabled: false
+  httpexchanges:
+    recording:
+      include: REQUEST_HEADERS,RESPONSE_HEADERS,TIME_TAKEN
+  info:
+    git:
+      mode: full
+
+springdoc:
+  api-docs:
+    path: /internal/open-api
+  swagger-ui:
+    path: /internal/swagger.html
+
+azure:
+  activedirectory:
+    tenant-name: TENANT-NAME
+    tenant-id: 12345
+    client-id: 12345
+    client-secret: secret
+    mobile-client-id: mob12345
+    mobile-client-secret: mobSecret
+    graph-scope: https://graph.microsoft.com/.default
