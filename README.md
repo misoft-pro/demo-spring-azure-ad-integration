@@ -1,6 +1,6 @@
 # Spring Boot Web MVC with Microsoft Azure Active Directory Integration
 
-This repository demonstrates how to build a Spring Boot Web MVC application that provides API endpoints integrated with Microsoft Azure Active Directory (AAD). The application implements the "Resource Owner Password Credentials (ROPC) Authentication" scheme in Active Directory. This scheme is suitable for scenarios where a custom registration and authentication process with a tailored UI/UX is a business requirement.
+This repository demonstrates how to build a Spring Boot Web MVC application that provides API endpoints integrated with Microsoft Azure Active Directory (AAD) for managing organizational identities. The application implements the "Resource Owner Password Credentials (ROPC) Authentication" scheme in Active Directory, leveraging Microsoft Graph APIs. This scheme is suitable for scenarios where a custom registration and authentication process with a tailored UI/UX is a business requirement for your organization.
 
 ## Features
 
@@ -20,8 +20,8 @@ This repository demonstrates how to build a Spring Boot Web MVC application that
 ### Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/spring-boot-azure-ad-ropc.git
-cd spring-boot-azure-ad-ropc
+git clone https://github.com/misoft-pro/demo-spring-azure-ad-integration.git
+cd demo-spring-azure-ad-integration
 ```
 
 ### Configuration
